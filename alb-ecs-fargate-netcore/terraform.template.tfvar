@@ -1,0 +1,6 @@
+aws_region = "us-east-1"
+state_bucket = "terraform-aws-examples-state"
+state_dynamo_table = "terraform-aws-examples-state-locks"
+state_bucket_key = "global/s3/vpc-private-public-subnet/terraform.tfstate"
+vpc_cidr = "10.0.0.0/16"
+az_count = 2

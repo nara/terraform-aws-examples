@@ -1,0 +1,3 @@
+region = "us-east-1"
+state_bucket = "terraform-aws-examples-state"
+state_dynamo_table = "terraform-aws-examples-state-locks"
